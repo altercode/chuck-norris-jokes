@@ -1,0 +1,26 @@
+{
+    "name": "altercode/chuck-noris-jokes",
+    "description": "Some cool jokes about Chuck Norris",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "altercode",
+            "email": "p.wajcowicz@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Altercode\\ChuckNorisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Altercode\\ChuckNorisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
